@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+        /*my first program in c the compiler will ignore this comment*/
+	printf("Hello Ghost!\n");
+	return 0;
+	}
+
