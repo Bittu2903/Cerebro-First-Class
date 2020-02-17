@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a,b,c,d,e,f,g,h;
+	printf("enter the value of a and b:");
+	scanf("%d%d",&a,&b);
+	c=a+b;
+	d=a-b;
+	e=b-a;
+	f=a*b;
+	g=a/b;
+	h=b/a;
+	printf("addition of these two no. is :%d",c);
+	printf("\n subtraction of these two no. (a-b) is :%d",d);
+    printf("\n subtraction of these two no. (b-a) is :%d",e);
+	printf("\n multiplication of these two no. (a*b) is :%d",f);
+	printf("\n division of these two no. (a/b) is :%d",g);
+	printf("\n division of these two no. (b/a) is :%d",h);
+	getch();
+	return 0;	
+	
+}
