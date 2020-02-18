@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a,i;
+	printf("Enter any Number:");
+	scanf("%d",&a);
+		printf("The Odd Numbers till %d are \n",a);
+	
+	for(i=1;i<=a;i=i+2)
+	{
+	
+		printf("%d ,",i);
+		
+	}
+	getch();
+	return 0;
+}
