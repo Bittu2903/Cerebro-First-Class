@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main()
+{
+	int a;
+	printf("Enter value:");
+	scanf("%d",&a);
+	if(a>2)
+	{
+		printf("Square root of %d is %3f", a ,sqrt(a));
+	}
+	else
+	{
+		printf("stop");
+	}
+	getch();
+}
