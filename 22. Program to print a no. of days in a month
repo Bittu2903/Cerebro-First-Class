@@ -1,0 +1,39 @@
+
+#include<stdio.h>
+main()
+{
+int month;
+
+printf("enter the month \n"); 
+scanf("%d",&month); 
+switch(month)
+{
+ 
+case 1:printf("january \n"); 
+printf("31 days in a month \n"); break;
+case 2:printf("feb \n"); 
+printf("28 or 29 \n"); break;
+case 3:printf("march \n"); 
+printf("31 days in month \n"); break;
+case 4:printf("april \n"); 
+printf("30 days in month \n"); break;
+case 5:printf("may  \n"); 
+printf("31 days in month \n"); break;
+case 6:printf("june  \n"); 
+printf("30 days in month \n"); break;
+case 7:printf("july \n");
+printf("31 days in month \n"); break;
+case 8:printf("august \n"); 
+printf("31 days in month \n"); break;
+case 9:printf("september"); 
+printf("30 days in month"); break;
+case 10:printf("octuber"); 
+printf("31 days in month"); break;
+case 11:printf("november \n"); 
+printf("30 days in month \n"); break;
+case 12:printf("december \n"); 
+printf("31 days in month \n"); break;
+default:printf("way"); break;
+}
+ 
+}
