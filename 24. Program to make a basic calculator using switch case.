@@ -1,0 +1,22 @@
+
+#include<stdio.h>
+main()
+{
+int a,b,c,ch;
+printf("enter two operants"); 
+scanf("%d%d",&a,&b); printf("Press 1.Addition");
+ printf("Press 2.Substraction"); 
+ printf("Press 3.Multiplication"); 
+ printf("Press 4.Division");
+printf("Enter any of above operation"); 
+scanf("%d",&ch);
+ 
+switch(ch)
+{
+case 1:c=a+b; printf("%d/n",c); break;
+case 2:c=a-b; printf("%d/n",c); break;
+case 3:c=a*b; printf("%d/n",c); break;
+case 4:c=a/b; printf("%d/n",c); break;
+default:printf("wrong choice");
+}
+}
