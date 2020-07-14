@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter a value:");
+    scanf("%d",&a);
+    printf("How much you shift:");
+    scanf("%d",&b);
+    c=a>>b;
+	printf("value is %d",c);
+ 	getch();
+	return 0;	
+	
+}
