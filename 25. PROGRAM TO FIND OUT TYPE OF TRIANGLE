@@ -1,0 +1,33 @@
+
+#include<stdio.h>
+main()
+{
+int a,b,c;
+printf("enter the sides of triangles"); 
+scanf("%d%d%d",&a,&b,&c);
+printf("the sides of triangles are a=%d,b=%d,c=%d",a,b,c);
+
+if (((a+b)>c)||((a+c)>b)||((b+c)>a))
+{
+printf("it is the tirangle"); 
+if((a==b)&&(b==c)&&(c==a))
+{
+printf("triangle is equilateral");
+}
+else
+{
+if((a==b)||(b==c)||(c==a))
+{
+printf("it is isoceles");
+}
+else
+{
+printf("it is scalene");
+}
+}
+}
+else
+{
+printf("it is not a triangle");
+}
+}
