@@ -1,0 +1,30 @@
+#include<stdio.h>
+main()
+{
+float marks,total,percentage;
+printf("Enter the total marks:");
+scanf("%f",&total);
+printf("enter the obtained marks:"); 
+scanf("%f",&marks); 
+percentage=(marks/total)*100; 
+if(percentage>=90.0)
+{
+printf("excellent");
+}
+else if(percentage>=80.0)
+{
+printf("very good");
+}
+else if(percentage>=70.0)
+{
+printf("good");
+}
+else if(percentage>=60.0)
+{
+printf("average");
+}
+else
+{
+printf("poor");
+}
+}
