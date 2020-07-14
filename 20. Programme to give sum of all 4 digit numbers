@@ -1,0 +1,13 @@
+
+#include<stdio.h> 
+main ()
+{
+int a,digit,sum=0;
+printf("enter a 4 digit number"); 
+scanf("%d",&a);
+digit=a%10; sum=sum+digit; a=a/10; 
+digit=a%10; sum=sum+digit; a=a/10; 
+digit=a%10; sum=sum+digit;
+ 
+a=a/10; sum=sum+a; 
+printf("%d",sum);}
