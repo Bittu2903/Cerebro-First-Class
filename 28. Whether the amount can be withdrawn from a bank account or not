@@ -1,0 +1,18 @@
+#include<stdio.h>
+main()
+{
+float balance,amount;
+printf("enter your account balance"); 
+scanf("%f",&balance);
+printf("enter the amount"); 
+scanf("%f",&amount); 
+if((balance-amount)>0)
+{
+balance=balance-amount;
+printf("updated account statement is %f",balance);
+}
+else
+{
+printf("withdrawn cannot be done");
+}
+}
