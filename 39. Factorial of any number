@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int x,fact=1;
+	
+	printf("enter a no.:");
+	scanf("%d",&x);
+	while(x!=0)
+	{
+		fact=fact*x;
+		x=x-1;
+		
+	}
+	printf("%d",fact);
+	getch();
+	
+}
